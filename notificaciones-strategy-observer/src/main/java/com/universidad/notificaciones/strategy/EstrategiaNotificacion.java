@@ -1,5 +1,5 @@
 package com.universidad.notificaciones.strategy;
 
-public class EstrategiaNotificacion {
-    
+public interface EstrategiaNotificacion {
+    void enviar(String mensaje);
 }
