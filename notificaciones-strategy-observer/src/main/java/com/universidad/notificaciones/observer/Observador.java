@@ -1,5 +1,7 @@
 package com.universidad.notificaciones.observer;
 
-public class Observador {
-    
+import com.universidad.notificaciones.modelo.Evento;
+
+public interface Observador {
+    void actualizar(Evento evento);
 }
